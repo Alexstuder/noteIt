@@ -9,6 +9,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { NotesComponent } from './notes/notes.component';
 import {FormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
+import { NoteComponent } from './notes/note/note.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {HttpClientModule} from "@angular/common/http";
     NavigationComponent,
     FeedbackComponent,
     NotFoundComponent,
-    NotesComponent
+    NotesComponent,
+    NoteComponent
   ],
   imports: [
     BrowserModule,
